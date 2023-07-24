@@ -1,6 +1,5 @@
-
 /* @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   overflow-x: hidden;
 }
@@ -12,13 +11,13 @@ body {
   max-width: 100%;
   overflow-x: hidden;
   color: #14263b;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 .wrapper {
   /* max-width: 1149px; */
-   max-width: 1196px;
+  max-width: 1196px;
   padding: 0 15px;
   margin: 0 auto;
   float: none;
@@ -69,7 +68,7 @@ a {
 }
 
 h1 {
-  color: var(--primary-blue, #14263B);
+  color: var(--primary-blue, #14263b);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
@@ -77,32 +76,33 @@ h1 {
 }
 
 h3 {
-color: var(--primary-orange, #F9A620);
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 160%; 
+  color: var(--primary-orange, #f9a620);
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%;
 }
 
 h6 {
-  color: var(--primary-blue, #14263B);
+  color: var(--primary-blue, #14263b);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 8px;
+}
+
+h4 {
+  color: #14263b;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: 140%;
 }
 
-h4 {
-color: #14263B;
-font-size: 20px;
-font-style: normal;
-font-weight: 600;
-line-height: 140%;
-}
-
 h5 {
-  color: var(--primary-blue, #1D6AE5);
+  color: var(--primary-blue, #1d6ae5);
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -110,20 +110,20 @@ h5 {
 }
 
 /* h6 {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 34px;
-  letter-spacing: normal;
+font-size: 24px;
+font-weight: 600;
+line-height: 34px;
+letter-spacing: normal;
 } */
-h2{
-  color: var(--primary-blue, #14263B);
+h2 {
+  color: var(--primary-blue, #14263b);
   font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 140%;
 }
-p{
-  color: var(--primary-blue, #14263B);
+p {
+  color: var(--primary-blue, #14263b);
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
@@ -131,7 +131,7 @@ p{
 }
 
 p.small {
-  color: #171D29;
+  color: #171d29;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -140,26 +140,27 @@ p.small {
 }
 
 p.medium {
-  color: var(--secondary-text-color, #54637C);
+  color: var(--secondary-text-color, #54637c);
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
+  margin-bottom: 0;
 }
 
 p.large {
-  color: var(--secondary-text-color, #54637C);
+  color: var(--secondary-text-color, #54637c);
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
 }
-p.bold{
-  color: var(--primary-blue, #14263B);
+p.bold {
+  color: var(--primary-blue, #14263b);
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 130%; 
+  line-height: 130%;
 }
 
 b {
@@ -211,58 +212,57 @@ label {
 }
 
 a {
-color: #0B3694;
-text-align: center;
-font-size: 16px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: 0.356px;
-  /* font-size: 14px;
+  color: #0b3694;
+  text-align: center;
+  font-size: 16px;
   font-style: normal;
-  color: #fff;
   font-weight: 600;
-  line-height: 140%;
-  transition: all 0.4s ease-in; */
+  line-height: normal;
+  letter-spacing: 0.356px;
+  /* font-size: 14px;
+font-style: normal;
+color: #fff;
+font-weight: 600;
+line-height: 140%;
+transition: all 0.4s ease-in; */
 }
 
 a:hover {
   transition: all 0.4s ease-in;
-  color: #0B3694;
+  color: #0b3694;
 }
 
 a.cta_button {
-  background:  #0B3694;
+  background: #0b3694;
   color: #fff;
   /* text-align: center;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal; */
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal; */
   padding: 20px 34px;
   transition: all 0.3s ease-in;
   display: inline-block;
   text-decoration: none;
 
+  color: #fff;
+  text-align: center;
 
-color: #FFF;
-text-align: center;
-
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: 17px; /* 100% */
-text-transform: uppercase;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 17px; /* 100% */
+  text-transform: uppercase;
 }
 
 a.cta_button:hover {
   background: #fff;
-  color:#0B3694;
+  color: #0b3694;
   transition: all 0.3s ease-in;
 }
 
 button {
-  background: #0B3694;
+  background: #0b3694;
   color: #fff;
   text-align: center;
   font-size: 17px;
@@ -276,14 +276,16 @@ button {
   border: none;
   position: relative;
   z-index: 2;
+  border: 1px solid #0b3694;
+
   /* background: transparent; */
 }
 
 button:hover {
   background: #fff;
-  color: #0B3694;
-  transition: all 0.3s ease-in;
-  border: 1px solid  #0B3694; 
+  color: #0b3694;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #0b3694;
 }
 
 /* Table Styling */
@@ -376,33 +378,33 @@ button:hover {
 /* Responsive Styling */
 
 /* @media (max-width: 767px) {
-  h1 {
-    font-size: 48px;
-    line-height: 58px;
-  }
+h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
 
-  h2 {
-    font-size: 40px;
-    line-height: 110%;
-  }
+h2 {
+  font-size: 40px;
+  line-height: 110%;
+}
 
-  h3 {
-    font-size: 34px;
-    line-height: 120%;
-  }
+h3 {
+  font-size: 34px;
+  line-height: 120%;
+}
 
-  h4 {
-    font-size: 28px;
-    line-height: 120%;
-  }
+h4 {
+  font-size: 28px;
+  line-height: 120%;
+}
 
-  h5 {
-    font-size: 26px;
-    line-height: 110%;
-  }
+h5 {
+  font-size: 26px;
+  line-height: 110%;
+}
 
-  h6 {
-    font-size: 20px;
-    line-height: 30px;
-  }
+h6 {
+  font-size: 20px;
+  line-height: 30px;
+}
 } */

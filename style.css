@@ -19,9 +19,18 @@
     padding: 17px 40px;
 
 }
+.for_line .wrapper{
+    border: 1px solid var(--secondary-border-color, #DEE2EA);
+}
 /* .section_first .section_first_content ul li{
     flex-basis: 30%;
 } */
+@media(max-width:767px){
+    .section_first .section_first_content ul {
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+}
 
 
 /* Section-02 CSS */
@@ -31,14 +40,19 @@
 .second_section .second_section_content .second_top_section{
     /* max-width: 939px; */
     text-align: center;
-    padding-bottom: 56px;
+    margin-bottom: 56px;
 }
-.second_section .second_section_content .second_top_section .large{
+.second_section .second_section_content .second_top_section .paragraph{
     /* max-width: 939px; */
     width:80%;
     /* margin-left: 10%; */
-    margin: auto ;
+    margin: 0 auto ;
+    margin-bottom: 24px;
 }
+/* .second_section .second_section_content .second_top_section .paragraph_1{
+    margin-bottom: 0;
+} */
+
 .second_section .second_section_content .second_middle_section .second_rows{
     display:flex;
     justify-content: center;
@@ -57,7 +71,7 @@
 }
 .second_section .second_section_content .second_bottom_section {
     text-align: center;
-    padding-top: 60px;
+    margin-top: 60px;
 }
 .second_section .second_section_content .second_bottom_section .button{
     border-radius: 6px;
@@ -69,13 +83,11 @@
     .second_section .second_section_content .second_middle_section .second_rows{
         display:flex;
         justify-content: center;
-        /* gap: 32px;
-        flex-direction: column; */
         flex-basis: 50% ;
         flex-wrap: wrap;
     }
     
-}
+}  
 @media(max-width:767px){
     .second_section{
         padding:60px 0;
@@ -94,4 +106,15 @@
         width:100%
 
     }
+    .second_section .second_section_content .second_bottom_section {
+        margin-top: 40px;
+    }
+    .second_section .second_section_content .second_top_section{
+        /* max-width: 939px; */
+      
+        margin-bottom: 35px;
+    }
+    .second_section .second_section_content .second_top_section .paragraph{
+        font-size: 16px;
+}
 }
