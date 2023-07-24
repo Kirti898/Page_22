@@ -27,7 +27,7 @@
 } */
 @media(max-width:767px){
     .section_first .section_first_content ul {
-        /* flex-direction: column; */
+       
         flex-wrap: wrap;
     }
 }
