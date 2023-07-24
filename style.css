@@ -1,0 +1,97 @@
+/* Section-01 CSS */
+.section_first{
+    padding: 54px 0 59px;
+}
+.section_first .section_first_content ul{
+    display: flex;
+    gap: 35px;
+    /* flex-wrap: wrap; */
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+.section_first .section_first_content ul li h5{
+    display:inline-block;
+    margin-bottom: 0;
+}
+.section_first .section_first_content .second_bottom_section .button{
+    border-radius: 6px;
+    padding: 17px 40px;
+
+}
+/* .section_first .section_first_content ul li{
+    flex-basis: 30%;
+} */
+
+
+/* Section-02 CSS */
+.second_section{
+    padding:119px 0;
+}
+.second_section .second_section_content .second_top_section{
+    /* max-width: 939px; */
+    text-align: center;
+    padding-bottom: 56px;
+}
+.second_section .second_section_content .second_top_section .large{
+    /* max-width: 939px; */
+    width:80%;
+    /* margin-left: 10%; */
+    margin: auto ;
+}
+.second_section .second_section_content .second_middle_section .second_rows{
+    display:flex;
+    justify-content: center;
+    
+    gap: 32px;
+}
+.second_section .second_section_content .second_middle_section .second_rows .card{
+    padding: 20px;
+    text-align: center;
+    flex-basis: 30%;
+    max-width: 235px;
+    border-radius: 12px;
+    border: 1px solid var(--secondary-border-color, #DEE2EA);
+    transition: all 0.4s ease-in-out;
+    
+}
+.second_section .second_section_content .second_bottom_section {
+    text-align: center;
+    padding-top: 60px;
+}
+.second_section .second_section_content .second_bottom_section .button{
+    border-radius: 6px;
+}
+@media(max-width:1024px){
+    .second_section{
+        padding:80px 0;
+    }
+    .second_section .second_section_content .second_middle_section .second_rows{
+        display:flex;
+        justify-content: center;
+        /* gap: 32px;
+        flex-direction: column; */
+        flex-basis: 50% ;
+        flex-wrap: wrap;
+    }
+    
+}
+@media(max-width:767px){
+    .second_section{
+        padding:60px 0;
+    }
+    .second_section .second_section_content .second_middle_section .second_rows{
+        display:flex;
+        justify-content: center;
+        flex-direction: column; 
+        flex-basis: 100% ;
+        flex-wrap: wrap;
+    }
+    .second_section .second_section_content .second_middle_section .second_rows .card{
+        max-width: 100%;
+    }
+    .second_section .second_section_content .second_top_section .large{
+        width:100%
+
+    }
+}
